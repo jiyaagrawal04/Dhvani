@@ -4,12 +4,9 @@
 
 DHVANI is a low-power, real-time, software-defined sonar transmitter that chooses its own ping — band, pulse length, amplitude and modulation — from live water conditions **and** the remaining battery budget, then sleeps while a timer and DMA stream the waveform out through the chip's own DAC.
 
-<p align="center">
-  <img src="hardware/pod/photos/DHVANI\_Pod\_white\_front.png" width="48%" alt="DHVANI payload pod, front">
-  <img src="diagrams/DHVANI\_Architecture\_HalfSlide.png" width="48%" alt="DHVANI architecture">
-</p>
+| !\[DHVANI payload pod, front](hardware/pod/photos/DHVANI\_Pod\_white\_front.png) | !\[DHVANI architecture](diagrams/DHVANI\_Architecture\_HalfSlide.png) |
 
-> \*\*Prototype video:\*\* https://www.youtube.com/watch?v=tk1MluvHB7E
+|:--:|:--:|> \\\*\\\*Prototype video:\\\*\\\* https://www.youtube.com/watch?v=tk1MluvHB7E
 
 ## What it does
 
@@ -44,7 +41,7 @@ DHVANI is a low-power, real-time, software-defined sonar transmitter that choose
 |Power monitor|INA219 on I2C (PB9 / PB8)|wired in place of the JP5 jumper|
 |Enclosure|3D-printed PLA pod, AUV hull section|see `hardware/pod`|
 
-Full pin map, values and wiring: `docs/DHVANI\_Pins\_and\_Values\_Roadmap.pdf` and `diagrams/DHVANI\_Hardware\_Wiring.png`.
+Full pin map, values and wiring: `docs/DHVANI\\\_Pins\\\_and\\\_Values\\\_Roadmap.pdf` and `diagrams/DHVANI\\\_Hardware\\\_Wiring.png`.
 
 ## Repository map
 
@@ -57,7 +54,7 @@ Full pin map, values and wiring: `docs/DHVANI\_Pins\_and\_Values\_Roadmap.pdf` a
 |`docs/`|Build guides, complete test guide, pins \& values roadmap, tech stack|
 |`diagrams/`|Architecture, process flow, wiring and clear-vs-muddy diagrams (SVG source + PNG)|
 
-Note on `docs/DHVANI\_Tech\_Stack.pdf` and `docs/DHVANI\_Breadboard\_Build\_v2.pdf`: these describe the earlier external-DAC (DAC0800) build. The final prototype uses the on-chip DAC — `docs/DHVANI\_Builtin\_DAC\_Build\_v3.pdf` is the current reference.
+Note on `docs/DHVANI\\\_Tech\\\_Stack.pdf` and `docs/DHVANI\\\_Breadboard\\\_Build\\\_v2.pdf`: these describe the earlier external-DAC (DAC0800) build. The final prototype uses the on-chip DAC — `docs/DHVANI\\\_Builtin\\\_DAC\\\_Build\\\_v3.pdf` is the current reference.
 
 ## Run it
 
@@ -74,7 +71,7 @@ streamlit run app.py -- COM9    # live from the board
 
 See `dashboard/README.md` for the telemetry format, the capture tool and how the model is trained.
 
-**Pod** — print `hardware/pod/DHVANI\_Pod\_lower.stl`, `DHVANI\_Pod\_upper.stl` and two of `DHVANI\_Pod\_saddle\_PRINT\_2.stl` in PLA; settings are in `hardware/pod/README.txt`.
+**Pod** — print `hardware/pod/DHVANI\\\_Pod\\\_lower.stl`, `DHVANI\\\_Pod\\\_upper.stl` and two of `DHVANI\\\_Pod\\\_saddle\\\_PRINT\\\_2.stl` in PLA; settings are in `hardware/pod/README.txt`.
 
 ## Design decisions
 
