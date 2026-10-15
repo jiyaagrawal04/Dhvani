@@ -1,0 +1,21 @@
+# STM32CubeIDE build output
+firmware/Debug/
+firmware/Release/
+firmware/.metadata/
+firmware/**/Debug/
+firmware/**/Release/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Dashboard captures (keep sample/ and the trained model)
+dashboard/log.txt
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/

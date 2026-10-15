@@ -1,0 +1,29 @@
+DHVANI MODEL EVALUATION REPORT
+Synthetic-data development evaluation
+NOTE: Evaluated on SYNTHETIC sensor data (see ml/generate_dataset.py).
+These figures are NOT a measurement of real-world sensor accuracy.
+============================================================
+Model path        : dhvani_model.joblib
+Test set size     : 2000
+Accuracy          : 0.9850
+Macro F1-score    : 0.9850
+Weighted F1-score : 0.9850
+
+Classification report:
+               precision    recall  f1-score   support
+
+  clear_fresh       1.00      1.00      1.00       500
+   clear_reef       1.00      1.00      1.00       500
+muddy_estuary       0.98      0.96      0.97       500
+  muddy_river       0.97      0.98      0.97       500
+
+     accuracy                           0.98      2000
+    macro avg       0.99      0.98      0.98      2000
+ weighted avg       0.99      0.98      0.98      2000
+
+Confusion matrix (rows=actual, cols=predicted):
+Labels: ['clear_fresh', 'clear_reef', 'muddy_estuary', 'muddy_river']
+[[499   0   0   1]
+ [  1 499   0   0]
+ [  0   2 482  16]
+ [  0   0  10 490]]

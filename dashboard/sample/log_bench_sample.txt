@@ -1,0 +1,7 @@
+AUD-LFM  T=24.4C c=1495 clarity=4092 (clear=3900) tds=803ppm f=2000-17000Hz dur=4ms amp=1669 | I=11.70mA E=6.4mJ batt=86% NORMAL
+AUD-LFM  T=24.3C c=1495 clarity=2978 (clear=3900) tds=800ppm f=2000-14009Hz dur=6ms amp=1668 | I=11.70mA E=7.5mJ batt=83% NORMAL
+AUD-LFM  T=24.4C c=1495 clarity=10 (clear=3900) tds=798ppm f=2000-5000Hz dur=16ms amp=1667 | I=11.70mA E=10.3mJ batt=78% NORMAL
+AUD-LFM  T=27.4C c=1502 clarity=1755 (clear=3900) tds=22ppm f=2000-10043Hz dur=10ms amp=1213 | I=11.70mA E=9.0mJ batt=80% NORMAL
+AUD-LFM  T=27.3C c=1502 clarity=449 (clear=3900) tds=22ppm f=2000-5807Hz dur=15ms amp=1213 | I=11.79mA E=10.3mJ batt=79% NORMAL
+AUD-GEO  T=27.4C c=1502 clarity=3253 (clear=3900) tds=4ppm f=2000-14901Hz dur=6ms amp=1202 | I=11.79mA E=7.0mJ batt=83% NORMAL
+AUD-LFM  T=27.4C c=1502 clarity=1030 (clear=3900) tds=4ppm f=2000-7691Hz dur=9ms amp=962 | I=11.70mA E=13.2mJ batt=44% ECONOMY
