@@ -4,9 +4,13 @@
 
 DHVANI is a low-power, real-time, software-defined sonar transmitter that chooses its own ping — band, pulse length, amplitude and modulation — from live water conditions **and** the remaining battery budget, then sleeps while a timer and DMA stream the waveform out through the chip's own DAC.
 
-| !\[DHVANI payload pod, front](hardware/pod/photos/DHVANI\_Pod\_white\_front.png) | !\[DHVANI architecture](diagrams/DHVANI\_Architecture\_HalfSlide.png) |
+!\[DHVANI payload pod, front](hardware/pod/photos/DHVANI\_Pod\_white\_front.png)
 
-|:--:|:--:|> \\\*\\\*Prototype video:\\\*\\\* https://www.youtube.com/watch?v=tk1MluvHB7E
+
+
+!\[DHVANI architecture](diagrams/DHVANI\_Architecture\_HalfSlide.png)
+
+> \\\*\\\*Prototype video:\\\*\\\* https://www.youtube.com/watch?v=tk1MluvHB7E
 
 ## What it does
 
